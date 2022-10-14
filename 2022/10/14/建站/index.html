@@ -246,12 +246,41 @@ var _hmt = _hmt || [];
 </div>
 
 <div id="article-content">
-	<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>建网站本身是一个很大的工程，涉及前端页面的搭建，网站数据的存储，还要购置服务器资源，甚至是后期的维护，过程相当繁琐。</p>
+	<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>建网站本身是一个很大的工程，涉及前端页面的搭建，网站数据的存储，还要购置服务器资源，甚至是后期的维护，过程相当繁琐。</p>
 <p>不过如果仅仅是想搭建个人的网站，写写博客，形成自己的技术栈网站，又不想操心太多和写博客无关的事情。那么，Hexo + GitHub + hexo-theme-tree 的方式就很适合你。</p>
-<p>本文就讲下如何借助这三样免费的技术或服务，来搭建一个可访问的静态博客网站。</p>
+<p>本文就讲下如何借助这三样免费的技术或服务，来搭建一个可访问的静态博客网站，在Windows11上进行演示。</p>
 <div align=center>
-<img src="img1.png" width = 65%>
+<img src="img1.png" width = 80%>
 </div>
+
+<h2 id="一、前置环境"><a href="#一、前置环境" class="headerlink" title="一、前置环境"></a>一、前置环境</h2><ul>
+<li>Node.js 安装<br>参考链接：<a target="_blank" rel="noopener" href="https://blog.csdn.net/qq_48485223/article/details/122709354">https://blog.csdn.net/qq_48485223/article/details/122709354</a><br>若无法设置文件权限，则按照如下流程完成npm install 命令<ol>
+<li>以管理员身份打开cmd</li>
+<li>在cmd终端执行 npm install 命令</li>
+</ol>
+</li>
+</ul>
+<br/>
+
+<ul>
+<li>Git安装<br>参考视频如下：<div>
+<iframe src="//player.bilibili.com/player.html?aid=553052118&bvid=BV1si4y1D7Kx&cid=573356066&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+</div>
+<br/></li>
+</ul>
+<h2 id="二、Hexo建站流程"><a href="#二、Hexo建站流程" class="headerlink" title="二、Hexo建站流程"></a>二、Hexo建站流程</h2><h3 id="2-1-Hexo简介"><a href="#2-1-Hexo简介" class="headerlink" title="2.1 Hexo简介"></a>2.1 Hexo简介</h3><p>Hexo<sup>[1]</sup> 是一个快速，简单且功能强大的博客框架。如果你用 Markdown 写博客，Hexo 可以在几秒内生成带有精美主题的静态文件。</p>
+<h3 id="2-2-安装Hexo"><a href="#2-2-安装Hexo" class="headerlink" title="2.2 安装Hexo"></a>2.2 安装Hexo</h3><p>用 npm 安装 Hexo。</p>
+<pre><code class="bash">npm install -g hexo-cli
+</code></pre>
+<p>使用以下指令查看是否安装成功。</p>
+<pre><code class="bash">hexo version
+</code></pre>
+<p>如果你想卸载 Hexo，使用以下指令：</p>
+<pre><code class="bash">npm uninstall -g hexo-cli
+</code></pre>
+<p>安装后，你可以通过 <code>hexo &lt;command&gt;</code> 运行 Hexo。比如通过 hexo help 指令来获取使用帮助。</p>
+<pre><code class="bash">hexo help
+</code></pre>
 
 </div>
 
