@@ -731,7 +731,14 @@ Hexo 会启动服务，将默认生成的网站运行在本机的 4000 端口上
 <td></td>
 </tr>
 </tbody></table>
-<h4 id="2-3-5-Hexo常用指令"><a href="#2-3-5-Hexo常用指令" class="headerlink" title="2.3.5 Hexo常用指令"></a>2.3.5 Hexo常用指令</h4><br/>
+<h4 id="2-3-5-Hexo常用指令"><a href="#2-3-5-Hexo常用指令" class="headerlink" title="2.3.5 Hexo常用指令"></a>2.3.5 Hexo常用指令</h4><pre><code class="bash">hexo new &quot;test&quot;    #创建新的md文件
+hexo g             #生成静态文件，每次md文件修改后，通过该命令自动生成html等静态文件
+hexo g --watch     #监视文件变动立即重新生成。该操作会阻塞命令
+hexo d             #部署到服务器上。
+hexo generate --deploy    #生成完毕后自动部署网站。
+hexo s             #启动本地服务
+</code></pre>
+<br/>
 
 <h2 id="参考资料"><a href="#参考资料" class="headerlink" title="参考资料"></a>参考资料</h2><p>[1] Hexo: <a target="_blank" rel="noopener" href="https://hexo.io/docs/">https://hexo.io/docs/</a><br>[2] EJS:<a target="_blank" rel="noopener" href="https://ejs.co/">https://ejs.co/</a><br>[3] Stylus:<a target="_blank" rel="noopener" href="http://learnboost.github.io/stylus/">http://learnboost.github.io/stylus/</a><br>[4] Markdown:<a target="_blank" rel="noopener" href="http://daringfireball.net/projects/markdown/">http://daringfireball.net/projects/markdown/</a><br>[5] 时区列表: <a target="_blank" rel="noopener" href="https://en.wikipedia.org/wiki/List_of_tz_database_time_zones">https://en.wikipedia.org/wiki/List_of_tz_database_time_zones</a><br>[6] 永久链接: <a target="_blank" rel="noopener" href="https://hexo.io/zh-cn/docs/permalinks">https://hexo.io/zh-cn/docs/permalinks</a><br>[7] permalink: <a target="_blank" rel="noopener" href="https://hexo.io/zh-cn/docs/variables">https://hexo.io/zh-cn/docs/variables</a><br>[8] Asset 文件夹: <a target="_blank" rel="noopener" href="https://hexo.io/zh-cn/docs/asset-folders">https://hexo.io/zh-cn/docs/asset-folders</a><br>[9] Highlight.js: <a target="_blank" rel="noopener" href="https://hexo.io/docs/syntax-highlight#Highlight-js">https://hexo.io/docs/syntax-highlight#Highlight-js</a><br>[10] PrismJS: <a target="_blank" rel="noopener" href="https://hexo.io/docs/syntax-highlight#PrismJS">https://hexo.io/docs/syntax-highlight#PrismJS</a><br>[11] Moment.js: <a target="_blank" rel="noopener" href="http://momentjs.com/">http://momentjs.com/</a><br>[12] Meta generator: <a target="_blank" rel="noopener" href="https://developer.mozilla.org/zh-CN/docs/Web/HTML/Element/meta#%E5%B1%9E%E6%80%A7">https://developer.mozilla.org/zh-CN/docs/Web/HTML/Element/meta#属性</a></p>
 
